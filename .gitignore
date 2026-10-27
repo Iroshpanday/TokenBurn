@@ -1,0 +1,22 @@
+# Python / virtualenv
+venv/
+__pycache__/
+*.pyc
+
+# Secrets: never commit. Share variable names via .env.example instead.
+.env
+.env.*
+!.env.example
+
+# SQLite is not used (PostgreSQL is the source of truth)
+*.sqlite3
+
+# Private working docs (mentor instructions, blueprint, personal log)
+CLAUDE.md
+backend/docs/blueprint.pdf
+backend/docs/engineering-log.md
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
